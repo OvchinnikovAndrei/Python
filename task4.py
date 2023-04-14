@@ -6,3 +6,9 @@
 # 6 -> 1 4 1
 # 24 -> 4 16 4
 # 60 -> 10 40 10
+
+s = int(input())
+p = s/6
+c = p
+k = (p+c)*2
+print(int(p), int(k), int(c))
